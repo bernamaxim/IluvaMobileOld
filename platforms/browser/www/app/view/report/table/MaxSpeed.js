@@ -30,7 +30,7 @@ Ext.define ('IluvatrackApp.view.report.table.MaxSpeed', {
     initialize : function() {
         var me = this;
         me.add(Ext.create('Ext.ux.touch.grid.List', {
-            store     : 'ReportStoreMaxspeed',
+            store     : 'ReportStoreMaxSpeed',
             fullscreen : true,
             calcWidth : true,
             height: "100%",

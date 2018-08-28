@@ -7,8 +7,8 @@
 Ext.define('IluvatrackApp.store.report.MaxSpeed', {
     extend: "Ext.data.Store",
     config: {
-        storeId: 'ReportStoreMaxspeed',
-        model: "IluvatrackApp.model.report.Maxspeed",
+        storeId: 'ReportStoreMaxSpeed',
+        model: "IluvatrackApp.model.report.MaxSpeed",
         proxy : {
             type   : 'ajax',
             url    : IluvatrackApp.util.Config.getBaseUrl()+'/report/maxspeed',
