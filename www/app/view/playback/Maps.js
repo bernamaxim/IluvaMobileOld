@@ -26,9 +26,8 @@ Ext.define('IluvatrackApp.view.playback.Maps', {
                 itemId: 'mapPlayback',
                 markers: [],
                 polyLines: [],
-                indonesia: new google.maps.LatLng (-1.740607,117.169436),
                 mapOptions: {
-                    center: indonesia,
+                    center: new google.maps.LatLng (-1.740607,117.169436),
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     zoom: 5,
                     maxZoom: 17
