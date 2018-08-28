@@ -1,7 +1,7 @@
 Ext.define('IluvatrackApp.store.report.MonthlyOdo', {
     extend: "Ext.data.Store",
     config: {
-        storeId: 'ReportStoreMonthlyodo',
+        storeId: 'ReportStoreMonthlyOdo',
         model: "IluvatrackApp.model.report.MonthlyOdo",
         proxy: {
             type: 'ajax',
