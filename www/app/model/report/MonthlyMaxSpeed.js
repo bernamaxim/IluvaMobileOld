@@ -7,6 +7,7 @@ Ext.define("IluvatrackApp.model.report.Monthlymaxspeed", {
     config: {
         fields: [
             'name',
+
             'day1',
             'day2',
             'day3',

@@ -8,6 +8,7 @@ Ext.define("IluvatrackApp.model.report.Maxspeed", {
         fields: [
             'name',
             'maxSpeed',
+
             'dateTime'
         ]
     }
