@@ -103,8 +103,9 @@ Ext.define('IluvatrackApp.view.Main', {
                 itemId: 'mapMonitor',
                 height: '100%',
                 markers: [],
+                indonesia: new google.maps.LatLng (-1.740607,117.169436),
                 mapOptions: {
-                    center: new google.maps.LatLng (-1.740607,117.169436),
+                    center: indonesia,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     zoom: 4,
                     maxZoom: 17
