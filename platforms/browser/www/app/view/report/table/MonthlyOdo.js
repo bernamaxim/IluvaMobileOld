@@ -30,7 +30,7 @@ Ext.define ('IluvatrackApp.view.report.table.MonthlyOdo', {
     initialize : function() {
         var me = this;
         me.add(Ext.create('Ext.ux.touch.grid.List', {
-            store     : 'ReportStoreMonthlyodo',
+            store     : 'ReportStoreMonthlyOdo',
             fullscreen : true,
             calcWidth : true,
             height: "100%",
