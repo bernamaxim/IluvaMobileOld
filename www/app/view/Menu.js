@@ -11,12 +11,14 @@ var menu_items = [{
         ui: 'mainmenu',
         href: '#playback',
         iconCls: 'ico-playback'
-    },{
-        text: 'Report',
-        ui: 'mainmenu',
-        href: '#report',
-        iconCls: 'ico-report'
-    }, {
+    }
+    //,{
+    //    text: 'Report',
+    //    ui: 'mainmenu',
+    //    href: '#report',
+    //    iconCls: 'ico-report'
+    //}
+    , {
         xtype : "component",
         cls : "divider",
         html : ""
