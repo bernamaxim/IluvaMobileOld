@@ -2,10 +2,11 @@
 <widget id="com.iluvatrack.IluvatrackApp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Iluvatrack</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Iluvatrack - Help keep your vehicle safe.
+        In addition to securing the vehicle, Iluvatrack also has various other benefits for you.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="bernamaxim@gmail.com" href="http://phonegap.com">
+        Bernard
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
